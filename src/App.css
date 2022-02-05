@@ -36,9 +36,9 @@ section {
   padding: 10px 15px;
   padding-bottom: 100px;
   margin-top: 10px;
-  box-shadow: inset #009688 0 0 0 5px, inset #059c8e 0 0 0 1px,
-    inset #0c66ab 0 0 0 10px, inset #0c66ab 0 0 0 11px, inset #0c66ab 0 0 0 16px,
-    inset #0c66ab 0 0 0 17px, inset #0c66ab 0 0 0 21px, inset #0c66ab 0 0 0 22px;
+  box-shadow: inset #05406d  0 0 0 5px, inset #05406d  0 0 0 1px,
+    inset #05406d 0 0 0 10px, inset #05406d  0 0 0 11px, inset #05406d  0 0 0 16px,
+    inset #05406d 0 0 0 17px, inset #05406d  0 0 0 21px, inset #05406d  0 0 0 22px;
 }
 hr {
   margin: 10px 10px 50px 10px;
