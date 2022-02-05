@@ -74,6 +74,10 @@ export default function App() {
     console.log(err));
   }
 
+
+
+
+
   return (
     <>
       <section>
@@ -134,6 +138,7 @@ export default function App() {
                             : 'attendButton'
                         }
                         type="button"
+                        aria-label="guest attending status"
                         onClick={() => {
                           handleAttend(guest.id);
                         }}
@@ -144,12 +149,14 @@ export default function App() {
                     <td>
                       <button
                         className="deleteButton"
+                        aria-label="remove guest"
                         type="button"
                         onClick={() => handleDelete(guest.id)}
                         id="delete"
                       >
                         x
                       </button>
+
                     </td>
                   </tr>
                 ))}
