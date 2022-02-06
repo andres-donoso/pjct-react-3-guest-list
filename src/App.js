@@ -21,7 +21,8 @@ export default function App() {
       setTimeout(() => {
         setLoading(false)
       }, 3000);
-  },);
+
+  }, [guestList, loading]);
 
 
 
